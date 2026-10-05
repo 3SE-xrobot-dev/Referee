@@ -2,7 +2,8 @@
 
 3SE fork of [QDU-Robomaster/Referee](https://github.com/QDU-Robomaster/Referee)
 at `786d041da0bff162ebc0c70ea18434b0e9e675d4` (Apache-2.0). Upstream
-CLI examples below use the QDU namespace; this copy is currently local.
+CLI examples below retain the QDU namespace; this repository is published at
+https://github.com/3SE-xrobot-dev/Referee.
 
 RoboMaster 裁判系统（2025 协议）串口收发模块：解析数据并发布 Topic，发送客户端 UI 与哨兵、雷达决策 / RoboMaster referee system (2025 protocol) UART Module that parses data, publishes Topics and sends client UI and sentry and radar decisions
 
