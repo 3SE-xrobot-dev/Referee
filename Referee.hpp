@@ -1450,7 +1450,10 @@ class Referee
     uint16_t text_len = 0;
     if (text != nullptr)
     {
-      text_len = static_cast<uint16_t>(strnlen(text, sizeof(fig.data)));
+      while (text_len < sizeof(fig.data) && text[text_len] != '\0')
+      {
+        ++text_len;
+      }
       memcpy(fig.data, text, text_len);
     }
     fig.grapic_data_struct.details_b = text_len;
